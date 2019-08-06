@@ -1,0 +1,170 @@
+h1 {
+	color: white;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 16px;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.text-middle {
+	color: white;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: -10px;
+}
+
+.box {
+	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-around;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	margin: 100px;
+  	margin-top: -10px;
+  	flex-shrink: 0;
+}
+
+.box-center {
+	max-width: 20%;
+	justify-content: center;
+}
+
+.box-left {
+	max-width: 20%;
+	align-self: flex-start;
+}
+
+.box-right {
+	max-width: 20%;
+	align-self: flex-start;
+}
+
+.box0 {
+	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-evenly;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	margin-bottom:1000px;
+  	margin-top: -20px;
+  	flex-shrink: 0;
+}
+
+.box0-center {
+	max-width: 10%;
+	justify-content: center;
+	flex-basis: 20%;
+	padding-left: 20px;
+	padding-bottom: 100px;
+}
+
+.box0-center2 {
+	max-width: 10%;
+	justify-content: center;
+	flex-basis: 10%;
+	padding-right: 330px;
+
+}
+
+.box0-left {
+	max-width: 10%;
+	align-self: flex-start;
+	flex-basis: 10%;
+	padding-left: 335px;
+
+}
+
+.box0-right {
+	max-width: 10%;
+	align-self: flex-start;
+	flex-basis: 10%;
+	padding-left: 20px;
+}
+
+
+
+.box1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  	margin: 20px;
+  	padding-left: 180px;
+  	margin-top: 70px;
+  	flex-shrink: 0;
+
+}
+
+.pic-center {
+	max-width: 20%;
+	justify-content: center;
+}
+
+.pic-left {
+	max-width: 20%;
+	align-self: flex-start;
+}
+
+.pic-right {
+	max-width: 20%;
+	align-self: flex-end;
+}
+
+.box2 {
+	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-around;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	margin: 100px;
+  	margin-top: 0px;
+  	margin-bottom: 50px;
+  	flex-shrink: 0px;
+}
+
+.box2-center {
+	max-width: 20%;
+	justify-content: center;
+}
+
+.box2-left {
+	max-width: 20%;
+	align-self: flex-start;
+}
+
+.box2-right {
+	max-width: 20%;
+	align-self: flex-start;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .box0 {
+    width: 700px;
+    margin-left: 0px;
+    flex
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .box0 {
+    width: 500px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .box0 {
+    width: 200px;
+    padding-right: 400px;
+    font-size: 12px;
+  }
+}
